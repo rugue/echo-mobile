@@ -1,6 +1,11 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from '@react-navigation/stack';
+import LoginScreen from "./screens/LoginScreen";
+import SignUpScreen from "./screens/SignUpScreen";
+import HomeScreen from "@/app-example/app/(tabs)";
+import UploadScreen from "./screens/UploadScreen";
+import StreamScreen from "./screens/StreamScreen";
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
